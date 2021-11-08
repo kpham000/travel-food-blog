@@ -10,3 +10,12 @@ This webpage was designed to host a collection of personal food blogs. Users can
 - Instructions
 - Contributors
 - License
+
+## Instructions
+Cloudinary half works
+<br>
+
+## Contributors
+- Kelly: 
+- Amay: 
+- Muhammad: GitHub Manager

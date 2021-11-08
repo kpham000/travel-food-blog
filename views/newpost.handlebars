@@ -13,15 +13,20 @@
       <input type="text" name="title" id="post-title" placeholder="Post Title">
       <textarea type="body" name="body" id="post-body" placeholder="Content"></textarea>
       <button class="submit success button">Post</button>
+      </div>
       {{!-- cloudinary --}}
-      {{!-- <button class="submit success button" id="img-preview"> + IMG </button>
-      <label class="file-upload-container" for="file-upload">
+      <div class="card"><img src="https://thumbs.dreamstime.com/z/beautiful-meticulously-designed-cloud-file-upload-icon-cloud-file-upload-icon-120275002.jpg" alt="image upload preview" id="image-preview">
+        <label class="image-upload-container" for="file-upload">
         <input id="file-upload" type="file" style="display:none;">
-        Add an Image
-      </label> --}}
+        Select an image
+      </label>
+      </div>
       {{!-- couldinary --}}
     </div>
   </div>
 </form>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+{{!-- <script src="/app.js"></script> --}}
 
 <script src="./js/newpost.js" defer></script>

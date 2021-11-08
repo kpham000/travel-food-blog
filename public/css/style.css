@@ -1,12 +1,6 @@
 body {
     font-family: 'Zen Antique', serif;
     background: rgb(222,174,123);
-    /* background: radial-gradient(
-        circle, 
-        rgba(222,174,123,1) 0%, 
-        rgba(148,233,193,1) 100%
-    );
-    background-attachment: fixed; */
 }
   
 header {
@@ -23,18 +17,25 @@ h1 {
 }
   
 .welcome {
+    font-family: 'Zen Antique', serif;
     text-align: center;
     color: white;
-    /* text-shadow: rgba(255, 255, 255, 0.54) 10px 10px 8px; */
 }
   
 .menu {
     color: white;
+    background: honeydew;
+}
+
+.menu a {
+    font-family: 'Zen Antique', serif;
+    color: green;
+    margin-right: 2%;
 }
   
 .delete {
-    color: red;
-    background: black;
+    color: white;
+    background-color: red;
     padding: 5px;
     border-radius: 10px;
     margin: 0;

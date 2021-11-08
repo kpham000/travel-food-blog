@@ -14,18 +14,12 @@ const hbs = exphbs.create({
     }
 });
 
-
 const {User,Blog,Comment} = require('./models');
 const routes = require("./controllers");
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 app.use(express.static("public"));
-
-// app.set('view', path.join(__dirname, '../view'));
-
-// app.use(express.cookieParser('secret'));
-// app.use(express.cookieSession());
 
 app.use(session({
     secret: process.env.SESSION_SECRET,

@@ -19,6 +19,7 @@
   "homepage": "https://github.com/kpham000/travel-food-blog#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "cloudinary": "^1.27.1",
     "connect-session-sequelize": "^7.1.2",
     "cookie-parser": "^1.4.5",
     "dotenv": "^10.0.0",
@@ -27,6 +28,7 @@
     "express-handlebars": "^5.3.4",
     "express-session": "^1.17.2",
     "mysql2": "^2.3.3-rc.0",
+    "nodemailer": "^6.7.0",
     "nodemon": "^2.0.14",
     "sequelize": "^6.9.0",
     "sequelize-store": "^0.4.2",
