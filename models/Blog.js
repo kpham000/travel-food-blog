@@ -11,7 +11,11 @@ Blog.init({
     body: {
         type: DataTypes.TEXT,
         allowNull: false
-    }   
+    } 
+    // cloudinary img  
+    // image: {
+    //     type: DataTypes.STRING,
+    // }
 },{
     sequelize
 });
